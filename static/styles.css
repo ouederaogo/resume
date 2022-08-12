@@ -1,0 +1,130 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Chewy&family=Lobster&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Tangerine:wght@400;700&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Lobster&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Righteous&display=swap");
+
+.font__righteous {
+  font-family: "Righteous", cursive;
+}
+
+.font__chewy {
+  font-family: "Chewy", cursive;
+}
+.font__lobster {
+  font-family: "Lobster", cursive;
+}
+.font__tangerine {
+  font-family: "Tangerine", cursive;
+}
+.font__tangerine__w400 {
+  font-family: "Nunito", "Arial", sans-serif;
+  font-weight: 300;
+}
+.mt-6,
+.my-6 {
+  padding-top: 7rem !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* font-size: 62.5%; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", "Arial", sans-serif;
+  color: #465169;
+  /* color: #5b6987;
+  color: #44566c; */
+  /* color: rgb(3, 27, 78); */
+
+  line-height: 1.9;
+  /* background-color: rgba(245, 247, 249); */
+  background-color: #f5f7f9;
+}
+h3 {
+  color: #5b6987;
+}
+a {
+  text-decoration: none !important;
+}
+.profil {
+  margin-top: 7rem;
+}
+#section__1 {
+  height: 85vh;
+}
+
+@media (max-width: 1080px) {
+  #section__1 {
+    height: 70vh;
+  }
+  .profil {
+    margin-top: 3rem !important;
+  }
+}
+
+.nav-link {
+  color: #fff !important;
+}
+.nav-link:hover {
+  color: #ffbec1 !important;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.cv__grid {
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.whatimdoing__item,
+.skills__item {
+  background-color: #fff;
+  border-radius: 0.8rem;
+}
+.whatimdoing__item:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.progressbar__outer {
+  background-color: #cadafd;
+  border-radius: 20px;
+}
+
+.progressbar__inter {
+  background-color: #6896f9;
+  border-radius: 20px;
+}
+#floater {
+  position: absolute;
+  top: 90vh;
+  right: 1px;
+  width: 100px;
+  height: 100px;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  z-index: 1;
+}
+
+#float__btn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #fff;
+  color: #cadafd;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.hidden {
+  opacity: 0;
+}
