@@ -125,6 +125,15 @@ a {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
+/* ===== HERO TEXT COLOR ===== */
+#section__1 h1 {
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+#section__1 p {
+  color: #e5e7eb;
+}
 .hidden {
   opacity: 0;
 }
